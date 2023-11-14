@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+.navbar{
+    background-color: #151515;
+    color: White;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    padding-top: 20px;
+    
+}
+.company_logo{
+    font-size: 35px;
+}
+.icon{
+    color: #D3F85A;
+    
+}
+.btn-contact{
+    font-size: 1.5rem;
+    width: 150px;
+    height: 40px;
+    background-color: #D3F85A;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.list{
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+main{
+    background-color: #151515;
+    color: white;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.intro_text{
+    /* border: 2px solid orange; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;;
+    
+    
+
+}
+.h1-tag{
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+.h2-tag{
+    font-size: 3rem;
+}
+
+.main-btn{
+    width: 150px;
+    height: 40px;
+    margin: 30px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    background-color: #D3F85A;
+    border: none;
+    cursor: pointer;
+
+
+}
+.spray{
+    background-color: #D3F85A;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    opacity: .02;
+    border: none;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    
+
+}
+
+.image-div{
+    position: relative;
+    top: 200px;
+    left: 700px;
+    transform: skew(0deg,10deg);
+    display: flex;
+    flex-direction: row;
+}
+.characters{
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    /* position: absolute;
+    top: 10px;
+    left: 500px; */
+}
+.img_2 {
+    position: relative;
+    left : 150px;
+    top: -40px;
+    z-index: -1;
+}
+
+.img_3 {
+    position: relative;
+    left : 80px;
+    top: -100px;
+    z-index: -2;
+}
+
+.clients{
+    position: relative;
+    top: 100px;;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 100px;
+    align-items: center;
+    padding: 50px 9px;
+    box-shadow:  0px 4px 8px 0px #D3F85A;
+    
+}
+.clients h3{
+    font-family: monospace;
+    letter-spacing: 5px;
+}
+.clients ul{
+    width: 80%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.card-container{
+    position: relative; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-card{
+    width: 205px;
+    height: 300px;
+    /* background-color:  ;  */
+    margin-top: 100px;
+    border-radius: 20px;
+    border: .5px solid #D3F85A; 
+    box-shadow: -1px 4px 8px 0px #D3F85A;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-between;
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.service-image{
+    width: 200px;
+    height: 200px; 
+    border: 2px solid ; 
+    object-fit: contain; 
+    border-radius: 20px;
+    border: none;
+}
+
+.service-contact{
+    font-size: 1.5rem; 
+    padding-bottom: 10px;
+    color: #D3F85A;
+}
+.card-name{
+    font-size: 1rem;
+}
+
+.Aboutus{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Aboutus-image{
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    transform: rotateY(50deg) skewY(-5deg) ;
+    
+
+    
+}
+
+.About-text{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 10px; */
+}
+.About-text h2{
+    font-size: 3rem;
+}
+.About-text-para{
+    line-height: 1.5;
+}
+.About-btn{
+    margin-top: 30px;
+    /* width: 130px; */
+    height: 40px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #D3F85A;
+    /* align-self: center; */
+    cursor: pointer;
+}
+.book-call{
+    width: 80%;
+    height: 250px;
+    margin: 100px auto 0px;
+    background-color: #D3F85A;
+    border-radius: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.book-h2{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 900;
+}
+.book-second-h2{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.book-btn{
+    
+    background-color: #151515;
+    color: #D3F85A;
+    width: 150px;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+
+}
+
+footer{
+    background-color: #151515;
+    /* height: 300px; */
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    
+    
+}
+
+.footer-spray{
+    position:relative;
+    z-index:1000;
+    top: 0px;
+    left:0px;
+
+}
+
+.panel{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px;
+    z-index: -1;
+    position: relative;
+
+    
+}
+
+
+.panel ul{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.panel  ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.panel-para{
+    font-size: 1.2rem;
+    width: 300px;
+}
+.panel h3{
+    padding: 20px 0px;
+    margin: 10px 0px;
+}
+.footer-spray{
+    background-color: #D3F85A;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    opacity: .02;
+    border: none;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    
+
+}
+.social{
+    padding: 6px;
+    color: #D3F85A;
+    font-size: 2rem;
+    cursor: pointer;
+    
+}
+.media-container{
+    margin: 20px;
+}
+
+.copyright{
+    text-align: center;
+    margin: 20px auto 30px ; 
+    padding: 10px; 
+    width: 80%;
+    
+    color: #D3F85A;
+    border-top: 1px solid #D3F85A;
+    
+}
